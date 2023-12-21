@@ -122,8 +122,8 @@ module.exports = {
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
   sessionId: process.env.SESSION_ID || "Queen Anya", 
   auto_read_status : process.env.AUTO_READ_STATUS || "true",
-  alwaysonline: process.env.ALWAYS_ONLINE || "true", 
-  readmessage: process.env.READ_MESSAGE || "true", 
+  alwaysonline: process.env.ALWAYS_ONLINE || "false", 
+  readmessage: process.env.READ_MESSAGE || "false", 
   auto_status_saver: process.env.AUTO_STATUS_SAVER || "false",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
