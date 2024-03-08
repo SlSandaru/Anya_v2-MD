@@ -123,7 +123,7 @@ module.exports = {
   sessionId: process.env.SESSION_ID || "ProudlyB_AN_YA_attles", 
   auto_read_status : process.env.AUTO_READ_STATUS || "false",
   alwaysonline: process.env.ALWAYS_ONLINE || "true", 
-  readmessage: process.env.READ_MESSAGE || "true", 
+  readmessage: process.env.READ_MESSAGE || "false", 
   auto_status_saver: process.env.AUTO_STATUS_SAVER || "false",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
