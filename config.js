@@ -120,10 +120,10 @@ module.exports = {
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "YzVsZDR_AN_YA_lOTk=", 
-  auto_read_status : process.env.AUTO_READ_STATUS || "false",
+  sessionId: process.env.SESSION_ID || "Z3pxdjN_AN_YA_wN_AN_YA_HM=", 
+  auto_read_status : process.env.AUTO_READ_STATUS || "true",
   alwaysonline: process.env.ALWAYS_ONLINE || "true", 
-  readmessage: process.env.READ_MESSAGE || "false", 
+  readmessage: process.env.READ_MESSAGE || "true", 
   auto_status_saver: process.env.AUTO_STATUS_SAVER || "false",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
